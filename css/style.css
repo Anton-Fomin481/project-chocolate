@@ -1,0 +1,52 @@
+ul,
+ol {
+  list-style-type: none;
+}
+
+/*---------------HEADER------------*/
+
+.header {
+}
+
+.header-title {
+  color: #111;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  display: block;
+  margin-right: 250px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo {
+  width: 213px;
+  height: 24px;
+  gap: 4px;
+  top: 1.64px;
+  left: 11.45px;
+  border: 2px;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.header-list {
+  display: flex;
+  gap: 90px;
+}
+
+.header-icon-list {
+  display: flex;
+  gap: 14px;
+}
+
+.header-title-span {
+  font-size: 18px;
+}
